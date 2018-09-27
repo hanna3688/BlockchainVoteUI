@@ -1,0 +1,57 @@
+﻿<img src="~/images/connections2.png" class="connection image" />
+<header></header>
+<img src="~/images/piegraph2.png" class="graph image" />
+<h1 class="result header"><i class="chart bar icon"></i>Result</h1>
+<div class="ui segment result">
+    <br />
+    <br />    
+    <div class="result">
+        <label>This is the result at @DateTime.Now</label>
+        <br/>
+        <br/>
+        <img class="left floated tiny ui image"
+             id="mini-profile-img"
+             src="https://semantic-ui.com/images/avatar2/large/matthew.png" />
+        <label class="candidate name">Matt Giampietro</label>
+        <p class="votes count">20,512 votes</p>
+        <div class='ui blue progress' data-total="100" data-value="50">
+            <div class='bar'>
+            </div>
+        </div>
+        <img class="left floated tiny ui image"
+             id="mini-profile-img"
+             src="https://semantic-ui.com/images/avatar2/large/kristy.png" />
+        <label class="candidate name">Kirsty Kirt </label>
+        <p class="votes count">9,485 votes </p>
+        <div class='ui yellow progress' data-total="100" data-value="20">
+            <div class='bar'>
+            </div>
+        </div>
+
+        <img class="left floated tiny ui image"
+             id="mini-profile-img"
+             src="https://semantic-ui.com/images/avatar/large/elliot.jpg" />
+        <label class="candidate name">Elliot Fu </label>
+        <p class="votes count">12,527 votes </p>
+        <div class='ui green progress' data-total="100" data-value="30">
+            <div class='bar'>
+            </div>
+        </div>
+
+        <img class="left floated tiny ui image"
+             id="mini-profile-img"
+             src="https://semantic-ui.com/images/avatar/large/jenny.jpg" />
+        <label class="candidate name">Jenny Hess</label>
+        <p class="votes count">15,141 votes </p>
+        <div class='ui red progress' data-total="100" data-value="40">
+            <div class='bar'>
+            </div>
+        </div>
+    </div>    
+    <br />
+</div>
+<script>
+    $(document).ready(function () {
+        $('.progress').progress();
+    });
+</script>
